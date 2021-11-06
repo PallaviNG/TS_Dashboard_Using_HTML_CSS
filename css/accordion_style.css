@@ -1,0 +1,41 @@
+/* Style the links that are used to open and close the accordion panel*/
+  .accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: 1px solid gray;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  display: none;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel >a {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+.panel > a {
+  display: none;
+}
+
+
+/*
+Scroll indicator
+CapsLock (On-Off state) ==> event.getModifierState
+lens effect
+zoom on product effect like eCommerce website
+*/
