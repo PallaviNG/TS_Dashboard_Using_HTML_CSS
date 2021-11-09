@@ -5,9 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/accordion_style.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/_flex.css">
+  <!-- fa-cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
+
+
+  <!-- Navbar -->
+  <nav class="navbar flex align-items-center">
+    <img src="/assets/images/logo/logo 1.png" alt="logo">
+    <div class="right-section flex justify-content-flex-end align-items-center">
+      <input type="text" name="search_box" id="search_box" />
+      <ul class="right-menu flex align-items-center justify-content-center">
+        <li><a onclick="javascript:openTextBox()" class="search_icon"><i class="fa fa-search"
+              aria-hidden="true"></i></a></li>
+        <li><a><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+        <li><a><i class="fa fa-bell-o" aria-hidden="true"></i></a></li>
+      </ul>
+      <img src="/assets/images/admin/user-1.png" class="avtar-image" alt="avatar-image">
+    </div>
+  </nav>
+
+  <!-- Sidebar -->
   <div class="sidebar">
     <a class="active accordion" href="#">Home</a>
     <div class="panel">
@@ -44,6 +66,7 @@
   </div>
 
   <script src="/js/accordion.js"></script>
+  <script src="/js/navbar.js"></script>
 </body>
 
 </html>

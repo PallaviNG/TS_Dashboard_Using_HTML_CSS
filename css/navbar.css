@@ -1,0 +1,58 @@
+.navbar {
+    height: 70px;
+    background-color: blueviolet;
+}
+
+.navbar img{
+    height: 40px;
+    color: white;
+    filter: brightness(0) invert(1);
+    padding-left: 4em;
+}
+
+.right-section {
+    height: inherit;
+    width: 60%;
+    /* border: 1px solid blue; */
+}
+
+.right-menu {
+    height: inherit;
+    width: 15%;
+    color: white;
+    /* border:1px solid brown; */
+}
+
+.right-menu >li{
+    list-style: none;
+    padding:0px 20px;
+    font-size: 24px;
+}
+
+.right-menu > button {
+    background-color: transparent;
+    border: none;
+}
+
+.search_icon {
+    margin-left: -25px;
+}
+
+#search_box{
+    padding:10px;
+    width: 350px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 0px;
+    /* display: none; */
+}
+.openTextBox {
+    animation: fadein 1s ;
+}
+
+@keyframes fadein {
+    from { opacity: 0; 
+    width: 0px;}
+    to   { opacity: 1;
+    width:350px }
+}
